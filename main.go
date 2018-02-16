@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-const version = "0.0.2"
+	_ "github.com/sdboyer/deptest"
+	"github.com/sigma/deptest/sub"
+)
 
 func init() {
-	fmt.Println(version)
+	fmt.Println(sub.Version)
 }
 
 func main() {}
