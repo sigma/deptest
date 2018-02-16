@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	fmt.Println(sub.Version)
+	fmt.Printf("%s\n", sub.Version)
 }
 
 func main() {}
